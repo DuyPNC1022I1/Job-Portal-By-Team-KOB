@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar-Search {
+    top: 0;
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+    z-index: 999;
+    background-color: white;
+}
+.body {
+    max-width: 1280px !important;
+    background-color: white !important;
+    overflow: hidden !important;
+}
+.body-all-page {
+    background-color: #FFF;
+}
+.title-name {
+    display: block;
+    width: 30%;
+    font-weight: 700;
+    padding-left: 20px;
+    line-height: 75px;
+    color: rgb(31, 42, 126);
+    z-index: 1;
+
+}
+
+.btn-back-Search-page {
+    display: block;
+    float: right;
+    padding-left: 40px;
+    padding-right: 30px;
+    position: absolute;
+    background-color: rgb(38, 50, 114);
+    right: 0;
+    top: 0;
+}
+
+.container-searchPage {
+    margin-top: 10px;
+    height: 500px;
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+
+.opacity-radio {
+    position: relative;
+    opacity: 0.5;
+    cursor: pointer;
+
+}
+
+.material-symbols-outlined {
+    position: absolute;
+    left: 250px;
+
+}
+
+label {
+    font-weight: 600;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.material-symbols-outlined:hover {
+    cursor: pointer;
+}
+
+.title-search-nav {
+    position: relative;
+    bottom: -29px;
+    color: #2f4ba0;
+}
+.input-search {
+    position: absolute;
+    bottom: 10px;
+    right: 275px;
+    width: 400px;
+    border-radius: 4px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.sortBy-time {
+    position: relative;
+    left: 1040px;
+    display: inline;
+}
+#optional {
+    border: 2px solid #CCC;
+    padding: 7px 20px;
+    outline: none;
+    border-radius: 4px;
+    position: absolute;
+    left: 80px;
+    top: -12px;
+    font-weight: 600;
+    color: #625f5f;
+}
+.optionBy {
+    border: 2px ;
+    padding: 10px 5px;
+    position: absolute;
+    color: #625f5f;
+    font-weight: 600;
+}
+.img-company-search {
+    left: 22px;
+    position: absolute;
+
+}
+.img-company-job {
+    height: 139px;
+    border-radius: 50%;
+    padding: 7px 10px;
+}
+
+.title-name-sort {
+    color : #2f4ba0;
+}
+.content-job-search {
+    position: absolute;
+    bottom: -750px;
+    left: 365px;
+    width: 60%;
+    overflow: scroll;
+    height: 750px;
+    overflow-x: hidden;
+}
+
+.title-content-job-search {
+    padding-left: 168px;
+    border: 1px solid #ccc;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+    margin-bottom: 20px;
+}
+.google-icon-font {
+    left: 258px !important;
+}
+.btn-apply-search {
+    position: absolute;
+    right: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #2f4ba0;
+    color: white;
+}
+
+.btn-apply-search:hover {
+    opacity: 0.9;
+    background-color: #0e2952;
+}
+.row-nav {
+    top: 1px;
+}
+.tilte-list-job {
+    border: 1px;
+    left: 360px;
+    position: absolute;
+    top: 660px;
+    text-align: center;
+    /*font-weight: 500;*/
+    letter-spacing: 3px;
+    font-size: 50px;
+
+}
+
+.img-company-search {
+    position: absolute;
+    line-height: 100%;
+
+}
+.body-search {
+    background-color: white !important;
+}
+
+.btn-sent-search:hover {
+    opacity: 0.7;
+}
+.btn-sent-search {
+    background-color: #2d2d77;
+    color: white;
+    padding-left: 19px;
+    padding-right: 21px;
+    border-radius: 4px;
+}
+.salaryMax {
+    display: inline-block;
+
+}
+.material-symbols-outlined {
+    left: -8px;
+}
+.blue1 {
+
+}
+.blue2 {
+
+}
+.salary-search, .address-search{
+    font-weight: 600;
+    /*padding-bottom: 9px;*/
+    position: relative;
+    padding-left: 20px;
+    opacity: 0.7;
+}
+.span-icon-google {
+    left: 260px
+}
